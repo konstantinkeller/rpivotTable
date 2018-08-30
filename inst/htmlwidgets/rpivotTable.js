@@ -34,6 +34,6 @@ HTMLWidgets.widget({
         x.params.dataClass = $.pivotUtilities.SubtotalPivotData;
       }
 
-      $('#'+el.id).pivotUI(x.data, x.params, true, x.locale);
+      $('#'+el.id).pivot(x.data, x.params, true, x.locale);
     }
 });
